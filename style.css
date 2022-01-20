@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h2,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --Akhir CSS Reset */
+
+body {
+  background-image: linear-gradient(white, grey);
+  background-repeat: no-repeat;
+}
+p {
+  line-height: 30px;
+}
+.container {
+  overflow: hidden;
+  width: 75%;
+  margin: auto;
+}
+
+.rowNavigasi .column img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 10px 0px;
+}
+
+.rowNavigasi .column ul {
+  display: inline-flex;
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+.rowNavigasi ul li {
+  margin-left: 50px;
+  list-style: none;
+  font-size: 12;
+}
+
+.rowNavigasi ul button {
+  margin-left: 40px;
+  padding: px;
+  background-color: rgb(252, 252, 252);
+  font-size: 13px;
+  margin-top: -1px;
+  border-color: 1px solid black;
+}
+section {
+  margin-top: 60px;
+}
+.columnProfile {
+  float: left;
+  width: 45%;
+  text-align: justify;
+}
+.columnProfile h1 {
+  margin-bottom: 40px;
+}
+.columnProfile ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.columnProfile ul li {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.columnForm {
+  float: right;
+  width: 45%;
+}
+
+.columnForm h1 {
+  margin-bottom: 40px;
+}
+
+.columnForm tr td {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.columnForm .isiForm {
+  font-weight: bold;
+}
+
+footer {
+  width: 75%;
+  margin: auto;
+  margin-top: 209px;
+}
+
+footer h3 {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 13px;
+}
