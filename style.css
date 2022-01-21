@@ -148,6 +148,11 @@ p {
   margin: 10px 0px;
 }
 
+.rowNavigasi .column h1 {
+  padding: 4px 0px 0px 20px;
+  float: left;
+}
+
 .rowNavigasi .column ul {
   display: inline-flex;
   float: right;
